@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Next App</title>
+        <title>ReactSetup</title>
       </Head>
 
       <main>
