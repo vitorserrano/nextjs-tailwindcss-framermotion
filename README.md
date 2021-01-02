@@ -61,6 +61,16 @@ Este repositório é um template para projetos ReactJS com NextJS com typescript
 	.next
 	/*.js
   ```
+ - Criar `prettier.config.js` e adicionar:
+  ```javascript
+      module.exports = {
+        semi: true,
+        singleQuote: true,
+        arrowParens: "avoid",
+        trailingComma: "all",
+        endOfLine: "auto",
+      };
+  ```
 4. Adicionar **Styled Components**
   - Instalar dependência: `yarn add styled-components`
   - Instalar tipagem: `yarn add @types/styled-components`
