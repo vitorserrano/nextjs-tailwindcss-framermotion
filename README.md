@@ -45,13 +45,17 @@ Este repositório é um template para projetos ReactJS com NextJS com typescript
 - Iniciar arquivo: `yarn eslint --init`
 - Remover arquivo `package.json.lock` e rodar `yarn`
 - Adicionar dependência **Prettier**: `yarn add prettier eslint-plugin-prettier eslint-config-prettier -D`
+- Adicionar dependência Typescript ao Eslint: `yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser`
 - Dentro de `eslintrc.json`:
   - Em `"extends"`adicionar:
     ```json
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/airbnb",
-    "prettier/react"
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "prettier",
+        "prettier/react"
     ```
   - Em `"plugins"` adicionar: `"prettier"`
   - Em `"rules"` adicionar: `"prettier/prettier": "error"`
