@@ -38,6 +38,7 @@ Este repositório é um template para projetos ReactJS com NextJS com typescript
 2. Adicionar typescript:
    - Adicionar dependência: `yarn add typescript @types/react @types/node -D`
    - Alterar as extensões `.js` dentro de `/pages` para `.tsx`
+   - Rodar o comando: `yarn dev` para aplicar o typescript
 
 3. Adicionar Eslint + Prettier:
 - Adicionar dependência **Eslint**: `yarn add eslint -D`
